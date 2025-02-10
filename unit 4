@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hawaii Football</title>
+  <link rel="stylesheet" href="unit4.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <h1>Hawaii Football</h1>
+  </header>
+
+  <div class="container">
+    <!-- Away Team Score -->
+    <div class="card">
+      <h2>Away team score: 45</h2>
+    </div>
+
+    <!-- Home Team Score -->
+    <div class="card">
+      <h2>Home team score: 52</h2>
+    </div>
+
+    <!-- Scoring Summary -->
+    <div class="card">
+      <h3>Scoring Summary:</h3>
+      <p>Q1: Away 10 - Home 14</p>
+      <p>Q2: Away 20 - Home 18</p>
+      <p>Q3: Away 5 - Home 10</p>
+      <p>Q4: Away 10 - Home 10</p>
+    </div>
+
+    <!-- Away Team Stats -->
+    <div class="card">
+      <h3>Away Team Stats:</h3>
+      <p>Total Yards: 350</p>
+      <p>Rushing Yards: 120</p>
+      <p>Passing Yards: 230</p>
+      <p>Turnovers: 2</p>
+    </div>
+
+    <!-- Home Team Stats -->
+    <div class="card">
+      <h3>Home Team Stats:</h3>
+      <p>Total Yards: 410</p>
+      <p>Rushing Yards: 180</p>
+      <p>Passing Yards: 230</p>
+      <p>Turnovers: 1</p>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p><a href="about.html">About Us</a> | <a href="contact.html">Contact Us</a></p>
+  </footer>
+</body>
+</html>
