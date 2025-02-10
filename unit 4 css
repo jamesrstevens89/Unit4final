@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #0055ff83; /* Light gray background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between content, header, and footer */
+    min-height: 100vh; /* Full viewport height */
+    padding: 10px;
+  }
+  
+  /* Header styling */
+  .header {
+    background-color: #007BFF; /* Blue background */
+    padding: 20px;
+    text-align: center;
+    color: white; /* White text */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below header */
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  /* Container to center all content */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns layout */
+    gap: 20px; /* Spacing between cards */
+    width: 80%;
+    max-width: 1200px;
+    margin: auto; /* Center the grid content */
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: rgb(255, 255, 255); /* White background for cards */
+    padding: 20px; /* Add padding inside cards */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center align text */
+  }
+  
+  /* Heading styling for better visibility */
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Paragraph styling for consistent spacing */
+  p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Footer styling */
+  .footer {
+    background-color: #ffffff; /* White footer background */
+    padding: 10px 20px; /* Padding inside the footer */
+    border-top: 1px solid #ddd; /* Light gray border on top */
+    text-align: center; /* Center text in the footer */
+    margin-top: 20px; /* Add spacing above footer */
+  }
+  
+  /* Footer links styling */
+  .footer a {
+    color: #007BFF; /* Blue links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Spacing between links */
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
